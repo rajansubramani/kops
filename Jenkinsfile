@@ -8,7 +8,7 @@ pipeline {
                 }
             }
         }
-       / stage ('SonarQube Code analysis'){
+        stage ('SonarQube Code analysis'){
             steps {
                 script{
                     def scannerHome = tool 'sonarscanner4';
